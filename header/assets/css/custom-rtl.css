@@ -1,0 +1,21 @@
+/* RTL specific styles */
+body[dir="rtl"] {
+    text-align: right;
+}
+
+body[dir="rtl"] .navbar-nav,
+body[dir="rtl"] .dropdown-menu {
+    text-align: right;
+}
+
+body[dir="rtl"] .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+body[dir="rtl"] .fa {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+/* Add more RTL specific styles as needed */ 
